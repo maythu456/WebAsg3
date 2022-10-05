@@ -1,0 +1,12 @@
+<html>
+<body>
+<h2>JavaScript Random Number</h2>
+<p id="random_number"></p>
+<script>
+function getRndInteger(minimum, maximum) {
+return Math.floor(Math.random() * (maximum - minimum)) + minimum;
+}
+document.getElementById("random_number").innerHTML = getRndInteger(10, 1000);
+</script>
+</body>
+</html>
